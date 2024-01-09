@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/bgapk">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@color/cardview_dark_background">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:text="Daftar Menjadi toko"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Toko"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/etNamaToko"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:maxLines="1"
+        android:singleLine="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamat Toko"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/etAlamatToko"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white"
+        android:maxLines="1"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/btnRegisterToko"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="#a4c639"
+        android:text="DAFTAR"/>
+
+
+
+
+
+    <!-- Daftar Menu -->
+    <!--        <ListView-->
+    <!--            android:id="@+id/listViewMenu"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:divider="@android:color/darker_gray"-->
+    <!--            android:dividerHeight="0.5dp"/>-->
+</LinearLayout>
+
+</ScrollView>
